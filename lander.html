@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from be-fimal.netlify.app/lander.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jun 2026 08:07:26 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="NFL Super Bowl 2027 — your trusted guide for championship football, playoff predictions, team analysis, and Super Bowl coverage." />
+<title>Welcome — NFL Super Bowl 2027</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    height: 100%;
+    font-family: 'Georgia', 'Times New Roman', serif;
+  }
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.072), rgba(0, 0, 0, 0.059)), #0000002f url('assets/img/MOBI.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    position: relative;
+    overflow-x: hidden;
+    filter: brightness(0.95);
+  }
+
+  @media (min-width: 769px) {
+    body {
+      background: linear-gradient(rgba(0, 0, 0, 0.068), rgba(0, 0, 0, 0.075)), #00000011 url('assets/img/DESK.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      filter: brightness(0.95);
+    }
+  }
+
+  /* MAIN CONTENT */
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Ball icon */
+  .ball {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    display: block;
+    filter: drop-shadow(0 4px 12px rgba(0,0,0,0.4));
+    animation: float 3s ease-in-out infinite;
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50%       { transform: translateY(-8px); }
+  }
+
+  /* Brand */
+  .brand-eyebrow {
+    font-family: Arial, sans-serif;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #f28c28;
+    margin-bottom: 0.8rem;
+  }
+
+  h1 {
+    font-family: 'Arial Black', Impact, sans-serif;
+    font-size: clamp(2.2rem, 6vw, 4rem);
+    font-weight: 900;
+    line-height: 1.08;
+    letter-spacing: -1.5px;
+    color: #ffffff;
+    margin-bottom: 1.2rem;
+    text-shadow: 0 2px 20px rgba(0,0,0,0.3);
+  }
+
+  h1 span {
+    color: #f28c28;
+  }
+
+  .tagline {
+    font-size: clamp(0.95rem, 2vw, 1.15rem);
+    color: rgba(255,255,255,0.75);
+    max-width: 500px;
+    line-height: 1.75;
+    margin-bottom: 2.8rem;
+  }
+
+  /* CTA Button */
+  .cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    background: #7ad75a;
+    color: #0a120e;
+    font-family: Arial, sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 0.04em;
+    padding: 1rem 2.4rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+    box-shadow: 0 4px 18px rgba(122, 215, 90, 0.35);
+    margin-bottom: 1.8rem;
+  }
+  .cta-btn:hover {
+    background: #68c94a;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(122, 215, 90, 0.45);
+  }
+  .cta-btn:active { transform: translateY(0); }
+  .cta-arrow { font-size: 1.1rem; transition: transform 0.2s; }
+  .cta-btn:hover .cta-arrow { transform: translateX(4px); }
+
+  /* Trust line */
+  .trust {
+    font-family: Arial, sans-serif;
+    font-size: 0.82rem;
+    color: rgba(255,255,255,0.5);
+    letter-spacing: 0.04em;
+  }
+
+  /* Divider dots */
+  .dots {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin: 2.5rem 0 0;
+    justify-content: center;
+  }
+  .dot-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: Arial, sans-serif;
+    font-size: 0.78rem;
+    color: rgba(255,255,255,0.5);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .dot-sep { color: rgba(255,255,255,0.2); font-size: 0.5rem; }
+
+  /* FOOTER */
+  footer {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 1.2rem 2rem;
+    font-family: Arial, sans-serif;
+    font-size: 0.78rem;
+    color: rgba(255,255,255,0.35);
+    border-top: 1px solid rgba(255,255,255,0.08);
+  }
+  footer a { color: rgba(255,255,255,0.45); text-decoration: none; margin: 0 0.5rem; }
+  footer a:hover { color: #f5a623; }
+  .footer-links { margin-bottom: 0.4rem; }
+</style>
+</head>
+<body>
+
+<main>
+  <span class="ball">🏈</span>
+  <p class="brand-eyebrow">America's Game</p>
+  <h1>Welcome to<br><span>NFL Super Bowl 2027</span></h1>
+  <p class="tagline">Your trusted guide to championship football — NFL teams, playoff predictions, player analysis, and the path to Super Bowl LXI.</p>
+  <a class='cta-btn' href='index.html'>
+    Enter the Guide <span class="cta-arrow">→</span>
+  </a>
+  <p class="trust">Trusted by NFL fans nationwide 🏈</p>
+  <div class="dots">
+    <span class="dot-item">🏈 AFC East</span>
+    <span class="dot-sep">●</span>
+    <span class="dot-item">🏆 Playoffs</span>
+    <span class="dot-sep">●</span>
+    <span class="dot-item">⭐ Super Bowl</span>
+  </div>
+</main>
+
+<footer>
+  <div class="footer-links">
+    <a href='privacy.html'>Privacy Policy</a>
+    <a href='terms.html'>Terms of Service</a>
+    <a href='contact.html'>Contact</a>
+  </div>
+  © 2025 NFL Super Bowl 2027 — All rights reserved.
+</footer>
+<script src="assets/popup.js"></script>
+</body>
+
+</html>
